@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    margin: auto;
+    width: 767px ;
+    height: 100vh;
+    background-color: lightslategrey;
+
+    display: grid;
+    grid-template-columns: 767px;
+    grid-template-rows: 70px 65% 80px 40px 40px 40px 60px 50px ;
+    grid-template-areas:
+    "title"
+    "foto"
+    "login"
+    "info-email-pass"
+    "text"
+    "button" ;
+}
+
+.title{
+    grid-area: title;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.foto{
+    
+    grid-area: foto;
+    background-color: rgb(54, 54, 155);
+    background-image: url(../img/iPhone\ Mockup.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 500px;
+    background-repeat: no-repeat;
+
+    
+    
+}
+
+
+
+.login{
+    grid-area: login;
+    background-color: lightcoral;
+}
+
+.info-email-pass{
+    grid-area: info-email-pass ;
+    background-color: rgb(254, 51, 51);
+}
+
+.text{
+    grid-area: text;
+    background-color: rgb(232, 240, 128);
+}
+
+.button{
+    grid-area: button;
+    background-color: rgb(24, 169, 24);
+
+}
