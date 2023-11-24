@@ -9,12 +9,12 @@
     margin: auto;
     min-width: 320px;
     max-width: 480px;
-    height: 100vh;
-    background-color: lightslategrey;
+    
+    background-color: rgb(39, 47, 75);
 
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 70px 365px 80px 40px 40px 40px 60px 50px ;
+    grid-template-rows: 70px 365px 80px 80px 60px 40px 60px 50px ;
     grid-template-areas:
     "title"
     "foto"
@@ -26,34 +26,45 @@
 
 .title{
     grid-area: title;
-    background-color: blueviolet;
+    background-color: rgb(39, 47, 75);
     text-align: center;
 }
 
 .foto{
     
     grid-area: foto;
-    background-color: rgb(54, 54, 155);
+    background-color: rgb(39, 47, 75);
     background-image: url(../img/iPhone\ Mockup.png);
     background-position-x: center;
     background-position-y: bottom;
     background-size: cover;
     background-repeat: no-repeat;
 
-    
-    
+
 }
 
 
 
 .login{
     grid-area: login;
-    background-color: lightcoral;
+    background-color: white;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+}
+
+.txt-log{
+    margin-left: 72px;
+    margin-top: 30px;
+
 }
 
 .info-email-pass{
     grid-area: info-email-pass ;
     background-color: rgb(254, 51, 51);
+    
 }
 
 .text{
