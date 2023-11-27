@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (min-width: 480px) and (max-width: 992px) {
+
+    body{
+        background-size: cover;
+        
+        background-image: url(../img/Background.png);
+    }
+}
+
+@media screen and (min-width: 993px) {
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../img/Background.png)
+    }
+
+    .container{
+        box-shadow: none;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 400px 400px;
+        grid-template-rows: 100vh;
+        
+    }
+
+    .title{
+        border-radius: 10px 0px 0px 0px;
+    }
+
+    .foto{
+        border-radius: 0px 0px 0px 10px;
+    }
+
+    .conte{
+        border-radius: 0px 10px 10px 0px;
+        height: 508px;
+        padding-left: 30px;
+        
+    }
+
+    .info-email-pass > input{
+        
+        width: 80%;
+        height: 50px;
+    }
+
+    .text{
+        margin-top: 40px;
+        
+    }
+
+    .button{
+        margin-top: 40px;
+        
+    }
+
+    .button > p {
+        width: 293px;
+    }
+
+}

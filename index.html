@@ -25,17 +25,22 @@
             <section class="login">
                 <h1 class="txt-log">Login</h1>
             </section >
-            <section class="info-email-pass">
-                <p>Email</p>
-                <input type="email" name="" id="">
-                <p>Password</p>
-                <input type="password" name="" id="">
-            </section>
-            <section class="text">
+            <form class="info-email-pass">
+
+                <label for="idmail">Email</label>
+                <input type="email" name="idmail" id="idmail" required placeholder="tony@example.com" size="100">
+
+                <label for="idpassword">Password</label>
+                <input type="password" name="idpassword" id="idpassword" required placeholder="At least 8 characters">
+            </form>
+            <form class="text">
+
+                <label for="checkbox"></label>
                 <input  type="checkbox" name="checkbox" id="checkbox">
+
                 <span class="text-terms"> By creating an account, you <br> agree to the </span> <span class="span-terms">Terms & <br> Conditions.</span>
             
-            </section>
+            </form>
             <section class="button">
                 
                 <p><br>Create an Account</p>

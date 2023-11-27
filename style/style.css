@@ -99,6 +99,8 @@ body{
 }
 
 .info-email-pass > input{
+    
+    padding-left: 20px;
     width: 100%;
     height: 40px;
     border-radius: 5px;
@@ -106,11 +108,13 @@ body{
     border: 1px solid lightgray;
 }
 
-.info-email-pass > p{
-    padding-top: 20px;
+.info-email-pass > label{
+    display: block;
+    padding-top:20px ;
     padding-bottom: 10px;
     font-weight: bold;
 }
+
 
 .text{
     justify-self: center;
